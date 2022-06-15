@@ -4,13 +4,14 @@
   "description": "Calculator",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter features"
+    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter calc-features"
   },
   "author": "Banja David Lotigo",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^8.3.0",
     "@cucumber/pretty-formatter": "^1.0.0-alpha.2",
-    "chai": "^4.3.6"
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0"
   }
 }
